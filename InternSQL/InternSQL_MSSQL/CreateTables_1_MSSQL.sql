@@ -19,7 +19,7 @@ CREATE TABLE Student(
 
 --Создание таблицы лекторов
 CREATE TABLE Lecturer(
-	Lecturer_Id varchar(max),
+	Lecturer_Id int,
 	Surname varchar(max),
 	Name varchar(max),
 	Middle_Name varchar(max),
